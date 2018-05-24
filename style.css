@@ -13,8 +13,7 @@
 }
 
 .content {
-	margin-top: 100px;
-	margin-left: 600px;
+
 }
 
 .footer{
@@ -25,11 +24,31 @@
   font-size: 17px;
 }
 
-.myButton {
-	background-image: url(/images/voice.png) ;*/
-/*    cursor:pointer;
-/**/    width: 200px;
-/**/    height: 100px;
-/**/    border: none;
+.search {
+	 	background-image: url(/images/voice.png) ;
+	    cursor:pointer;
+/**/    width: 34px;
+/**/    height: 34px;
+/**/    border: medium none;
+		line-height: 34px;
+}
+
+.search_div{
+		margin: auto;
+		border: 1px solid grey;
+		width 50%;
+}
+
+.button {
+	color: #757575;
+	font-family: arial,sans-serif;
+	min-width: 54px;
+	text-align: center;
+	margin: 11px 4px;
+	height: 36px;
+}
+
+.text{
+	  margin-left: 40px;
 
 }
