@@ -7,4 +7,29 @@
 
 .header * {
 	margin-left: 5px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+.content {
+	margin-top: 100px;
+	margin-left: 600px;
+}
+
+.footer{
+ /*float: center;*/
+  padding: 6px;
+  margin-top: 8px;
+  margin-left: 400px;
+  font-size: 17px;
+}
+
+.myButton {
+	background-image: url(/images/voice.png) ;*/
+/*    cursor:pointer;
+/**/    width: 200px;
+/**/    height: 100px;
+/**/    border: none;
+
 }
