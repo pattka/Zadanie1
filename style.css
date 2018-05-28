@@ -12,31 +12,47 @@
     margin-right: 15px;
 }
 
-.content {
-
+.content * {
+/*	margin-right: 5px;
+	margin-top: 20px;
+    margin-bottom: 10px;*/
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 600px;
+    margin-left: 600px;
 }
 
 .footer{
  /*float: center;*/
   padding: 6px;
-  margin-top: 8px;
-  margin-left: 400px;
+ /* margin-top: 8px;
+  margin-left: 400px;*/
   font-size: 17px;
+   max-width: 100%;
+   height:auto;
+   width:auto;
 }
 
+
 .search {
-	 	background-image: url(/images/voice.png) ;
-	    cursor:pointer;
-/**/    width: 34px;
-/**/    height: 34px;
-/**/    border: medium none;
-		line-height: 34px;
+	cursor:pointer;
+	border: medium none;
+	line-height: 34px;
+	max-width: 20%;
+   	height:auto;
+  /* 	width:auto;
+   	border: none;
+visibility: hidden;*/
 }
 
 .search_div{
-		margin: auto;
+		/*margin: auto;*/
 		border: 1px solid grey;
-		width 50%;
+		width 10%;
+	margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 450px;
+    margin-left: 450px;
 }
 
 .button {
@@ -44,11 +60,30 @@
 	font-family: arial,sans-serif;
 	min-width: 54px;
 	text-align: center;
-	margin: 11px 4px;
+	margin: 15px 4px;
 	height: 36px;
+	/* margin-top: 0px;
+    /*margin-bottom: 50px;*/
 }
 
 .text{
-	  margin-left: 40px;
+	margin-right: 600px;
+    margin-left: 600px;
+	margin-top: 50px;
 
+}
+
+.voice{
+	width 10%;
+	/*margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 450px;
+    margin-left: 4px  */
+    box-sizing: content-box;
+    display: block;
+    position: static;
+}
+
+.a{
+	color: blue;
 }
