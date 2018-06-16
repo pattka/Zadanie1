@@ -1,0 +1,32 @@
+.header {
+	padding: 20px;
+	text-align: center;
+	background: #f2f2f2;
+	font-family: arial,sans-serif;
+}
+
+.search {
+	margin-top: 1%;
+	width: 20%;
+}
+
+.button{
+	margin-top: 1%;
+	font-family: arial,sans-serif;
+
+}
+
+.header-text {
+	font-size: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	margin-top: 2%;
+}
+
+.link {
+	padding: 5px;
+	display: inline-block;
+	background: orange;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}

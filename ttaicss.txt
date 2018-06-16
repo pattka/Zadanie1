@@ -1,0 +1,18 @@
+.header {
+	background: #e4e4e4;
+	padding: 20px;
+	text-align: center;
+}
+
+.header-text {
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.link {
+	padding: 5px;
+	display: inline-block;
+	background: orange;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
